@@ -1,0 +1,64 @@
+.jumbotron {
+	padding-top: 3rem;
+	background-color: #ddd;
+	padding-bottom: 2rem;
+	background-image: url(../img/jumb.avif);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+#gallery {
+	padding: 2rem;
+}
+
+.navbar-brand {
+	font-family: Fjalla One;
+	font-size: 32px;
+}
+
+.nav-link {
+	font-size: 0.9em;
+}
+
+section {
+	padding-top: 5rem;
+}
+
+h3 {
+	font-size: 1.5em;
+}
+
+hr {
+	border: 1px solid;
+	width: 15%;
+	text-align: center;
+	display: inline-block;
+}
+
+.card img:hover {
+	opacity: 0.5;
+	cursor: pointer;
+}
+
+.rounded-circle {
+	border-radius: 50%;
+	height: 200px;
+	width: 200px;
+}
+
+li a {
+	text-decoration: none;
+}
+
+.card .box {
+	width: 16rem;
+}
+
+/*android*/
+@media (min-width: 992px) {
+	.nav-link {
+		text-transform: uppercase;
+		margin-right: 30px;
+	}
+}
